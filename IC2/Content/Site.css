@@ -1,0 +1,84 @@
+﻿body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.logo_telefonica {
+    background: rgba(0, 0, 0, 0) url("../Content/_imgs/bgd_logo.png") no-repeat scroll center top;
+    background-size: cover;
+    padding: 20px 0 0px;
+    min-height: 74px;
+    width: 100%;
+}
+
+.marcas_tel {
+    background: #003245 none repeat scroll 0 0;
+    min-height: 41px;
+    width: 100%;
+}
+
+    .marcas_tel ul.nav.navbar-nav li img {
+        margin-right: 15px
+    }
+
+    .marcas_tel ul li a {
+        color: #999;
+        font-family: "telefonicatext_bold",Arial,Helvetica,sans-serif;
+        font-size: 0.9em;
+    }
+
+    .marcas_tel ul li {
+        height: 41px;
+    }
+
+.btnHome {
+    margin-top: 5px;
+    margin-right: 10px
+}
+
+#pie {
+    background-color: #043345;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 42px;
+}

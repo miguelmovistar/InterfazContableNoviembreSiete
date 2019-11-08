@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNet.Identity
+@if ((string)Session["userName"] !=null && Session["IdLinea"] !=null)
+            {
+                
+                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <label class="tlf-Bienvenido">Usuario conectado: @Session["userName"]</label>
+                           
+                        </li>
+                       
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
+    </ul>
+                    <div>
+                        @if ((int)Session["IdLinea"] == 1 )
+                        {
+                            <label class="tlf-Bienvenido"> Roaming</label>
+                        }
+                        @if ((int)Session["IdLinea"] == 2)
+                        {
+                            <label class="tlf-Bienvenido"> LDI</label>
+                        }
+                        @if ((int)Session["IdLinea"] == 3)
+                        {
+                            <label class="tlf-Bienvenido"> MVNOS</label>
+                        }
+                    </div>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Login", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

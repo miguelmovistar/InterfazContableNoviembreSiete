@@ -1,0 +1,51 @@
+﻿@model IC2.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Log In";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@{
+    if (ViewBag.Mensaje != null && ViewBag.Mensaje != "")
+    {
+        <div class="alert alert-danger">
+            <a class="close" ng-click="displayServiceErrors = false" aria-label="close">&times;</a>
+            @ViewBag.Mensaje
+        </div>
+    }
+}
+
+<div class="container">
+    <div>
+
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.UserName, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Log In" class="btn btn-primary" />
+                        @Html.ActionLink("Cancel", "Login", "Account", new { }, new { @class = "btn btn-danger" })
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

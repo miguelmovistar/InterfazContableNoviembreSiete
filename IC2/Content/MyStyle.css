@@ -1,0 +1,13 @@
+﻿body {
+}
+.sizeBtn{
+    width:200px;
+    height: 120px;
+    text-align:center;
+    padding-top:45px;
+    font-size:large;
+}
+.fa.fa-phone-volume.fa-globe-americas{
+    height: 110px !important;
+    align-items: flex-end;   
+}

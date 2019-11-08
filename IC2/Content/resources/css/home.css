@@ -1,0 +1,505 @@
+html, body
+{
+    font: normal 7.5pt Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background-color: #E4E7E9;
+}
+
+.loading-indicator {
+    font-size:11px;
+    background-image:url(../ext/resources/images/default/grid/loading.gif);
+    background-repeat: no-repeat;
+    background-position:top left;
+    padding-left:20px;
+	height:18px;
+	text-align:left;
+	border: 3px solid #cccccc
+}
+
+#loading-mask{
+	position:absolute;
+	left:0;
+	top:0;
+    width:100%;
+    height:100%;
+    z-index:20000;
+    background-color:#e6e7d6;
+}
+
+#loading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+    height:auto;
+}
+#loading img {
+    margin-bottom:5px;
+}
+#loading .loading-indicator{
+	background:white;
+	color:#555;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+    text-align:center;
+    height:auto;
+}	
+
+.x-layout-panel-north {
+	border: 0px none;
+}
+
+.icons-container
+{
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.icons-container table {
+	font-size: 7.5pt;
+}
+
+.x-header-layout
+{
+	background-image: url(../images/fondo2.jpg);
+	background-repeat:repeat;
+}
+
+#main-viewport .x-layout-collapsed-west {
+	background-image: url(../images/menu-collapse-bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#main-viewport .x-layout-collapsed-east {
+	background-image: url(../images/ayuda-collapse-bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#main-viewport .x-layout-collapsed-south {
+	background-image: url(../images/herramientas-collapse-bg.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#msg-div {
+	position: absolute;
+	left: 35%;
+	top: 10px;
+	width: 250px;
+	z-index: 20000;
+}
+
+.x-tool-expand-east, .x-tool-expand-west {
+	float:none;
+	margin: 3px 3px 3px 3px;
+}
+
+.panel-accordion {
+	background-image:url(../images/silk/icons/bullet_yellow.png);
+}
+
+.x-panel-body-menu {
+
+}
+
+#dashboard-viewport .x-layout-collapsed-west {
+	background-image: url(../images/menu-charts-bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dashboard-viewport .x-layout-collapsed-east {
+	background-image: url(../images/ayuda-collapse-bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*Estilos JACP*/
+
+.CustomPanel
+{
+	border-right: #aabbcc 1px solid;
+	padding-right: 5px;
+	border-top: #aabbcc 1px solid;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 8pt;
+	padding-bottom: 5px;
+	border-left: #aabbcc 1px solid;
+	width:auto;
+	color: white;
+	padding-top: 5px;
+	border-bottom: #aabbcc 1px solid;
+	font-family: Verdana;
+	height:auto;
+	background-color: #e0e3e3;
+}
+
+.CustomTitulo
+{
+	background-image: url(../../Content/ext/resources/images/slate/panel/light-hd.gif);
+	background-repeat: repeat;
+	font: bold 9pt Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.CustomBody
+{
+	background-color: #eef4f8;
+}
+
+.icon-user {
+    background-image: url(../images/user.png) !important;
+}
+
+.icon-user-add {
+    background-image: url(../images/user_add.gif) !important;
+}
+
+.icon-save {
+    background-image: url(../images/save.gif) !important;
+}
+
+.icon-selectall {
+    background-image: url(../images/selectall.png) !important;
+}
+
+.icon-deselecttall {
+    background-image: url(../images/deselectall.png) !important;
+}
+
+.icon-yes {
+    background-image: url(../images/yes.gif) !important;
+}
+
+.icon-reset {
+    background-image: url(../images/stop.png) !important;
+}
+
+.icon-grid {
+    background-image: url(../images/grid.png) !important;
+}
+
+.icon-add {
+    background-image: url(../images/add.png) !important;
+}
+
+.icon-delete {
+    background-image: url(../images/delete.png) !important;
+}
+.iconoSubir {
+    background-image: url(../images/upload.png) !important;
+}
+.copyIcon {
+    background-image:url('../images/copy.png')!important; 
+}
+.excelIcon
+{
+    background-image:url('../images/page_excel.png');
+    height: 16px;
+    width: 16px;
+}
+
+.searchIcon
+{
+    background-image:url('../images/search-trigger.png');
+    height: 16px;
+    width: 16px;
+}
+
+.refreshIcon
+{
+    background-image:url('../images/arrow_refresh.png');
+    height: 16px;
+    width: 16px;
+}
+
+.clearIcon
+{
+    background-image:url('../images/borrar.png');
+    height: 16px;
+    width: 16px;
+}
+
+.eraserIcon
+{
+    background-image:url('../images/eraserr.png');
+    height: 16px;
+    width: 16px;
+}
+
+.playIcon
+{
+    background-image:url('../images/control_play.png') !important;
+    height: 16px;
+    width: 16px;
+}
+
+.editIcon
+{
+    background-image:url('../images/page_edit.png') !important;
+    height: 16px;
+    width: 16px;
+}
+
+.findIcon
+{
+    background-image:url('../images/find.png');
+    height: 16px;
+    width: 16px;
+}
+.bookIcon
+{
+    background-image:url('../images/book.png') !important;
+    height: 16px;
+    width: 16px;
+}
+.crossIcon
+{
+    background-image:url('../images/cross.png') !important;
+    height: 16px;
+    width: 16px;
+}
+.closedoc
+{
+   
+    background-image:url('../images/closedoc.png') !important;
+    height: 16px;
+    width: 16px;    
+    
+}
+.cancelarfac
+{
+   
+    background-image:url('../images/cancelarfac.jpg') !important;
+    height: 16px;
+    width: 16px;
+}
+
+.pdfIcon
+{
+    background-image:url('../images/Silk/icons/pdf.png') !important;
+    height: 16px;
+    width: 16px;
+}
+.registro
+{
+    background-image:url('../images/registro.png') !important;
+    height:16px;
+    width:16px;
+}
+.alarmado
+{
+    background-image:url('../images/alarm.ico') !important;
+    height:16px;
+    width:16px;
+}
+.acompletado
+{
+    background-image:url('../images/acomplished.ico') !important;
+    height:16px;
+    width:16px;
+}
+.ver
+{
+    background-image:url('../images/ver.png') !important;
+    height:16px;
+    width:16px;
+}
+.milestone
+{
+ background-image:url('../images/stop.png') !important;
+    height:16px;
+    width:16px;  
+}
+.herramientas
+{
+ background-image:url('../images/tools.png') !important;
+    height:16px;
+    width:16px;  
+}
+
+.adjuntos
+{
+ background-image:url('../images/attach.png') !important;
+    height:16px;
+    width:16px;  
+}
+.alertas
+{
+ background-image:url('../images/alert.png') !important;
+    height:16px;
+    width:16px;  
+}
+.postits
+{
+ background-image:url('../images/postits.png') !important;
+    height:16px;
+    width:16px;  
+}
+.costos
+{
+ background-image:url('../images/cost.png') !important;
+    height:16px;
+    width:16px;  
+}
+.Descosiliacion
+{
+ background-image:url('../images/des.png') !important;
+    height:16px;
+    width:16px;  
+}
+.factura
+{
+ background-image:url('../images/invoice.png') !important;
+    height:16px;
+    width:16px;  
+}
+.imprimir
+{
+ background-image:url('../images/print.png') !important;
+    height:16px;
+    width:16px;  
+}
+.adjuntar
+{
+ background-image:url('../images/adjuntar.png') !important;
+    height:16px;
+    width:16px;  
+}
+.calculadora
+{
+ background-image:url('../images/calculadora.png') !important;
+    height:17px;
+    width:16px;  
+}
+.agenda
+{
+ background-image:url('../images/agenda.png') !important;
+    height:16px;
+    width:16px;  
+}
+.subir
+{
+ background-image:url('../images/upload.png') !important;
+    height:16px;
+    width:16px;  
+}
+.mbl
+{
+ background-image:url('../images/mbl.png') !important;
+    height:16px;
+    width:16px;  
+}
+.terrestre
+{
+ background-image:url('../images/terrestre.png') !important;
+    height:16px;
+    width:16px;  
+}
+.aereo
+{
+ background-image:url('../images/aereo.png') !important;
+    height:16px;
+    width:16px;  
+}
+.maritimo
+{
+ background-image:url('../images/maritimo.png') !important;
+    height:16px;
+    width:16px;  
+}
+.folder
+{
+ background-image:url('../images/folder.png') !important;
+    height:16px;
+    width:16px;  
+}
+.consol1
+{
+ background-image:url('../images/consol1.png') !important;
+    height:16px;
+    width:16px;  
+}
+.consol2
+{
+ background-image:url('../images/consol2.png') !important;
+    height:16px;
+    width:16px;  
+}
+.Reabrir
+{
+ background-image:url('../images/open.png') !important;
+    height:16px;
+    width:16px;  
+}
+.BookingClosed 
+{
+    font-weight: bold; 
+    color: red;
+    font-size: 20px;
+    text-align:center;
+}
+.ImpresionGuiaVerde{
+    color: green;
+}
+.ImpresionGuiaAzul{
+    color: blue;
+}
+.ImpresionGuiaRosa{
+    color: #ff59cf;
+}
+.ImpresionGuiaAmarillo{
+    color: gold;
+}
+.LabelDisabled {
+    color: #C0C0C0;
+   }
+   
+.LabelEnabled {
+    color: black;
+   }
+   
+.cancelado-row .x-grid-cell-inner 
+ {  
+    background-color: #C4C0F6 !important; 
+ }
+ .conciliado-row .x-grid-cell-inner 
+ { 
+    background-color: #C4C0F6 !important; 
+ }  
+
+ .biggertext
+{
+    font-size: 32px;
+ }
+  .alarmado-row .x-grid-cell-inner 
+ { 
+    background-color: #FFC671 !important; 
+ }
+ .alarmaPasada-row .x-grid-cell-inner 
+ { 
+    background-color: #FF5555 !important; 
+ }
+   .acompletado-row .x-grid-cell-inner 
+ { 
+    background-color: #B5FF9B !important;
+ }
+
+.dblClick-row .x-grid-cell-inner
+ { 
+    background-color: #FFAF79 !important; 
+   
+ }
+ .wrap-text .x-grid-cell-inner {
+    white-space: normal;
+}
+.x-grid-cell .sin-factura {
+    background-color:red;
+}

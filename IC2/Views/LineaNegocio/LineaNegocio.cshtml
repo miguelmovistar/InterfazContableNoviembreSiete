@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Línea de Negocio";
+}
+
+<div>@ViewData["usuario"]</div> 
+
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h4>Línea de Negocio</h4>
+    </div>
+    <div class="panel-body">
+        <div class="row text-center">
+            <div id="lineaNegocio" class="col-md-12">
+                <div class="col-md-6 text-center">
+                    
+                    <div class="form-group">
+                        <div class="row">
+
+                            <div class="col-md-offset-1">
+                                @Html.ActionLink("LDI", "Index", "Home", new { IdLinea = 2 }, new { @class = "btn btn-primary sizeBtn fa fa-globe-americas", @IdLinea=2 })
+          
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                      
+                            <div class="col-md-offset-1">
+
+                                @Html.ActionLink("  MVNOS", "Index", "Home", new {IdLinea=3 }, new { @class = "btn btn-primary sizeBtn fas fa-broadcast-tower" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-offset-1">
+                                @Html.ActionLink("  ROAMING", "Index", "Home", new {IdLinea=1 }, new { @class = "btn btn-primary sizeBtn fa fa-phone-volume" })
+                            </div>
+                        </div>
+                        <br />
+                        @*<div class="row">
+                            <div class="col-md-offset-1">
+                                @Html.ActionLink("  INTERCONEXIÓN", "Index", "Home", new { }, new { @class = "btn btn-primary sizeBtn fas fa-globe" })
+                            </div>
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

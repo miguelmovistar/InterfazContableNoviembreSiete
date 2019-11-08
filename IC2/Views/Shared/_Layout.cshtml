@@ -1,0 +1,127 @@
+﻿@using IC2.Models
+@using System.Collections.Generic;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Interfaz Contable</title>
+    <link rel="shortcut icon" href="~/Images/Telefonica.ico" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/resources/css/ext-all.css" rel="stylesheet" />
+    <link href="~/Content/resources/css/home.css" rel="stylesheet" />
+    <link href="~/Content/resources/css/ext-all-gray.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Content/js/scripts/bootstrap.js"></script>
+    <script src="~/Content/js/lib/loader.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/font-awesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet" />
+    <link href="~/Content/MyStyle.css" rel="stylesheet" />
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu .dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -1px;
+            }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-submenu a.test').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="logo_telefonica">
+        <div class="col-md-3"><img src="~/Content/_imgs/logo_telefonica.png" width="150" height="54"></div>
+
+    </div>
+    <div class="marcas_tel">
+        <ul class="nav navbar-nav" style="float:right">
+            <li><img src="~/Content/_imgs/logomovistar_white.png" width="116" height="25"><img src="~/Content/_imgs/barra_white.png"></li>
+            <li><img src="~/Content/_imgs/logoo2_white.png"><img src="~/Content/_imgs/barra_white.png"></li>
+            <li><img src="~/Content/_imgs/logovivo_white.png"><img src="~/Content/_imgs/barra_white.png"></li>
+            <li><a href="http://www.movistar.com.mx/">are Telefónica brands</a></li>
+        </ul>
+    </div>
+    <div>
+
+        <div class="navbar navbar-default tlf-height-menu">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @*<div>
+                        <p>Linea de negocio:@ViewBag.IdLinea</p></div>*@
+                    <div class="btnHome"><a href=@Url.Action("LineaNegocio","LineaNegocio")><img src="~/Content/_imgs/home_azul.png" width="20" height="21"></a></div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    @if (@ViewBag.Linea == "Linea")
+                    {
+                        <ul class="nav navbar-nav tlf-submenu-background">
+                            @*inicio menu*@
+                            @foreach (var menu in (ViewBag.ListaMenu))
+                            {
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">@menu.Nombre<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        @foreach (var elemento in (ViewBag.Lista))
+                                        {
+                                            if (menu.Id == elemento.Id_Menu)
+                                            {
+                                                if (elemento.Controlador != "")
+                                                {
+                                                    var nombreControlador = elemento.Controlador.Contains("/") ? elemento.Controlador.Split('/')[0] : elemento.Controlador;
+                                                    var nombreAccion = elemento.Controlador.Contains("/") ? elemento.Controlador.Split('/')[1] : "Index";
+                                                    if (elemento.Controlador == "ParametrosCarga")
+                                                    {
+                                                        <li class="dropdown-submenu">
+                                                            <a class="test" tabindex="-1" href="#">Parámetros <span class="caret"></span></a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a tabindex="-1" href=@Url.Action(nombreAccion, nombreControlador)>@elemento.Nombre</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    }
+                                                    else
+                                                    {
+                                                        <li><a href=@Url.Action(nombreAccion, nombreControlador)>@elemento.Nombre</a></li>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <li class="disabled"><a href=@Url.Action("Index", "Home")>@elemento.Nombre </a></li>
+                                                }
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                            @*fin menu*@
+                        </ul>
+                    }
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+        <footer id="pie">
+            <div class="container">
+                <p class="text" style="padding-top:15px">@System.DateTime.Now.Year &copy; <b>Telefónica S.A.</b></p>
+            </div>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

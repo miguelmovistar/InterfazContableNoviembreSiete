@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="71f9d24857804148937c3c28cc1cbb4c" Name="Diagram1">
+        <EntityTypeShape EntityType="ICPruebaModel.Acceso" Width="1.5" PointX="10.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.AccesoCargas" Width="1.5" PointX="15" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Acreedor" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Acuerdo_Grupo" Width="1.5" PointX="5.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.AcuerdoTarifa" Width="1.5" PointX="3" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Agrupacion" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.AjustesObjecion" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.BonoConsumo" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.BonoTrafico" Width="1.5" PointX="8.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CaracteristicasPA" Width="1.5" PointX="7.5" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CargaDocumento" Width="1.5" PointX="13.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.cargaDocumentoRoaming" Width="1.5" PointX="10.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.cat_TipoLinea" Width="1.5" PointX="12.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CentroCosto" Width="1.5" PointX="5.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.cierreCostosLDI" Width="1.5" PointX="13.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.cierreIngresosLDI" Width="1.5" PointX="15.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.cierreSMSLDI" Width="1.5" PointX="15.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Concepto" Width="1.5" PointX="8.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieAjNcMesAnterior" Width="1.5" PointX="12.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieBaseDatos" Width="1.5" PointX="14.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieCosto" Width="1.5" PointX="16.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieCostosRecurrentes" Width="1.5" PointX="7.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieDevengoAcumulado" Width="1.5" PointX="17.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieFacturacionCostosRecurrentes" Width="1.5" PointX="17.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieFacturacionTrafico" Width="1.5" PointX="17.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieFacturaTarifa" Width="1.5" PointX="10.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieNCTarifa" Width="1.5" PointX="18.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieNCTrafico" Width="1.5" PointX="19.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieProvTar" Width="1.5" PointX="19.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieProvTarAcumMesesAnte" Width="1.5" PointX="18.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieSabana" Width="1.5" PointX="19.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieTC" Width="1.5" PointX="20.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CosRomCieTraficoPorMes" Width="1.5" PointX="20.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CostoFR" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CuentaResultado" Width="1.5" PointX="5.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DataCostoLDI" Width="1.5" PointX="21.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DataIngresoLDI" Width="1.5" PointX="21.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DataReferential" Width="1.5" PointX="13.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DatosTraficoLDI" Width="1.5" PointX="20.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DatosTraficoMVNO" Width="1.5" PointX="22.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.datosTraficoTAPINA" Width="1.5" PointX="15.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.datosTraficoTAPINB" Width="1.5" PointX="22.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.datosTraficoTAPOUTA" Width="1.5" PointX="23.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.datosTraficoTAPOUTB" Width="1.5" PointX="24.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Deudor" Width="1.5" PointX="24.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DevengoAcumTraficoIng" Width="1.5" PointX="17.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DevengoAjustesROM" Width="1.5" PointX="24.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DevengoCosto" Width="1.5" PointX="24.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DevengoFluctuacionROM" Width="1.5" PointX="25.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.DevengoIngreso" Width="1.5" PointX="26.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.documentosCosto" Width="1.5" PointX="26.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.documentosIngreso" Width="1.5" PointX="26.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.EmpresaIC" Width="1.5" PointX="27.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.FluctuacionCostoLDI" Width="1.5" PointX="19.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.FluctuacionIngresoLDI" Width="1.5" PointX="28.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GACierreCostosLDI" Width="1.5" PointX="28.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GACierreIngresosLDI" Width="1.5" PointX="12.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GACierreSMSLDI" Width="1.5" PointX="28.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GADataCostoLDI" Width="1.5" PointX="28.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GADataIngresoLDI" Width="1.5" PointX="21.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GADevengoCosto" Width="1.5" PointX="28.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GADevengoIngreso" Width="1.5" PointX="30.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAFluctuacionCostoLDI" Width="1.5" PointX="30.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAFluctuacionIngresoLDI" Width="1.5" PointX="30.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAProvisionCostoLDI" Width="1.5" PointX="14.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAProvisionFeeTIWS" Width="1.5" PointX="16.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAPXQCostosLDI" Width="1.5" PointX="30.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAPXQIngresosLDI" Width="1.5" PointX="30.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.GAPXQSMSLDI" Width="1.5" PointX="30.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Grupo" Width="1.5" PointX="3" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.historialAccesos" Width="1.5" PointX="23.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngCieRomTC" Width="1.5" PointX="32.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieAjusNcRealVsDev" Width="1.5" PointX="32.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieBaseDatos" Width="1.5" PointX="32.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieDevengoAcumuladoTrafico" Width="1.5" PointX="32.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieFacturacionTrafico" Width="1.5" PointX="32.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieFacturaTarifa" Width="1.5" PointX="32.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieIngreso" Width="1.5" PointX="32.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieNcTarifa" Width="1.5" PointX="25.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieNcTrafico" Width="1.5" PointX="32.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieProvTarifa" Width="1.5" PointX="9.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieProvTarifaAcumMesAnte" Width="1.5" PointX="11.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieSabana" Width="1.5" PointX="27.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.IngRomCieTC" Width="1.5" PointX="32.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LineaArchivo2" Width="1.5" PointX="34.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LineaNegocio" Width="1.5" PointX="3.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LogActualizaciones" Width="1.5" PointX="34.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Menu" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.MenuAcceso" Width="1.5" PointX="8" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.MenuCargas" Width="1.5" PointX="12.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.MenuIC" Width="1.5" PointX="8.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Moneda" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Movimiento" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.NegocioUsuario" Width="1.5" PointX="34.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.NotaCredito" Width="1.5" PointX="34.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Objecion" Width="1.5" PointX="5.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Operador" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Pais" Width="1.5" PointX="5.25" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.parametrosCargaDocumento" Width="1.5" PointX="34.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Perfil" Width="1.5" PointX="8.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Periodos" Width="1.5" PointX="29.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PeriodosAnterioresCostoROM" Width="1.5" PointX="34.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PeriodosAnterioresIngresoROM" Width="1.5" PointX="16.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.permisos" Width="1.5" PointX="11" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.ProvisionCostoLDI" Width="1.5" PointX="18.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.ProvisionFeeTIWS" Width="1.5" PointX="20.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQCostosLDI" Width="1.5" PointX="22.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQCostosROM" Width="1.5" PointX="34.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQCostosROM_B" Width="1.5" PointX="36.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQIngresosLDI" Width="1.5" PointX="13.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQIngresosROM" Width="1.5" PointX="36.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQIngresosROM_B" Width="1.5" PointX="24.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQSMSLDI" Width="1.5" PointX="36.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.ResumenDevengoROM" Width="1.5" PointX="36.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.RoamingCancelacionCosto" Width="1.5" PointX="31.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.RoamingCancelacionIngreso" Width="1.5" PointX="36.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.RoamingDocumentoCosto" Width="1.5" PointX="26.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.RoamingDocumentoIngreso" Width="1.5" PointX="28.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Servicio" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Sociedad" Width="1.5" PointX="3" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Submenu" Width="1.5" PointX="8" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Tarifa" Width="1.5" PointX="10.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Tarifa_Fee" Width="1.5" PointX="11.25" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.TarifaRoaming" Width="1.5" PointX="3" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.TC_Cierre" Width="1.5" PointX="6" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Trafico" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.usuarios" Width="1.5" PointX="15" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.FluctuacionCostoROM" Width="1.5" PointX="38.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.FluctuacionIngresoROM" Width="1.5" PointX="38.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.CancelacionProvisionesCosto" Width="1.5" PointX="8.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.HPolizasRechazo" Width="1.5" PointX="10.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LineaArchivo1" Width="1.5" PointX="38.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LineaArchivo1Roaming" Width="1.5" PointX="38.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.LineaArchivo2Roaming" Width="1.5" PointX="38.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.NCTraficoROM" Width="1.5" PointX="40.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.Polizas" Width="1.5" PointX="40.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PolizasAgrupadoLDI" Width="1.5" PointX="40.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PolizasAgrupadoRoaming" Width="1.5" PointX="12.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PolizasRoaming" Width="1.5" PointX="14.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PROVTARIFA_MesAnteriorROM" Width="1.5" PointX="40.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.PXQIngresosROMRecalculo" Width="1.5" PointX="20.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionCostoRecurrenteDiferenciaNegativa" Width="1.5" PointX="40.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionCostoRecurrenteDiferenciaPositiva" Width="1.5" PointX="40.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionCostoTarifa" Width="1.5" PointX="40.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionCostoTraficoDiferenciaNegativa" Width="1.5" PointX="16.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionCostoTraficoDiferenciaPositiva" Width="1.5" PointX="42.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionIngresoTarifa" Width="1.5" PointX="5.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionIngresoTraficoDiferenciaNegativa" Width="1.5" PointX="42.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CancelacionIngresoTraficoDiferenciaPositiva" Width="1.5" PointX="42.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_CargaDocumentoRoaming" Width="1.5" PointX="42.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_DocumentoCostoSinProvision" Width="1.5" PointX="42.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_DocumentoIngresoSinProvision" Width="1.5" PointX="42.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_FluctuacionTarifasCosto" Width="1.5" PointX="30.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_FluctuacionTarifasIngreso" Width="1.5" PointX="36.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_PeriodosAnterioresCostoROM" Width="1.5" PointX="44.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_PeriodosAnterioresIngresoROM" Width="1.5" PointX="44.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_PeriodosAnterioresPeriodoCosto" Width="1.5" PointX="7.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_PeriodosAnterioresPeriodoIngreso" Width="1.5" PointX="9.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_ProvisionSinDocumentoCosto" Width="1.5" PointX="44.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_ProvisionSinDocumentoIngreso" Width="1.5" PointX="44.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingCancelacionCosto" Width="1.5" PointX="44.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingCancelacionIngreso" Width="1.5" PointX="44.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingDocumentosCosto" Width="1.5" PointX="44.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingDocumentosIngreso" Width="1.5" PointX="18.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingFluctuacionCosto" Width="1.5" PointX="20.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.uvw_RoamingFluctuacionIngreso" Width="1.5" PointX="26.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.v_costos" Width="1.5" PointX="38.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ICPruebaModel.v_ingresos" Width="1.5" PointX="46.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="ICPruebaModel.FK_Acceso_LineaNegocio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Acceso_Submenu" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_AccesoCargas_MenuCargas" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CostoFR_Acreedor" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Acuerdo_Grupo_AcuerdoTarifa" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Acuerdo_Grupo_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Acuerdo_Grupo_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_BonoConsumo_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_BonoTrafico_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_BonoTrafico_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CaracteristicasPA_CuentaResultado" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK__usuarios__IdLine__10A1534B" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CentroCosto_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Concepto_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Concepto_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CostoFR_LineaNegocio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CostoFR_Moneda" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CostoFR_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_CuentaResultado_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Objecion_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Pais_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Tarifa_Fee_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_MenuAcceso_LineaNegocio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_MenuAcceso_Menu" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Submenu_Menu" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK__permisos__IDMenu__09F455BC" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_TC_Cierre_Moneda" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Movimiento_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Movimiento_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Objecion_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Objecion_Sociedad" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Objecion_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Tarifa_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_TarifaRoaming_Operador" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK__permisos__ID_Per__0AE879F5" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Trafico_Servicio" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Tarifa_Fee_Sociedad" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Tarifa_Trafico" ManuallyRouted="false" />
+        <AssociationConnector Association="ICPruebaModel.FK_Tarifa_Fee_Trafico" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
