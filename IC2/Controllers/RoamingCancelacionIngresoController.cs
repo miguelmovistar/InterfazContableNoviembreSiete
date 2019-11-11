@@ -81,11 +81,11 @@ namespace IC2.Controllers
                             {
                                 contador++;
 
-                                Activo = ((!_IdOperador.Any(o => o == lineaSplit[2].ToUpper())) ? "0" : "1");
+                                Activo = ((!_IdOperador.Any(o => o == lineaSplit[3].ToUpper())) ? "0" : "1");
 
                                 if (Activo == "1")
                                 {
-                                    Activo = ((!_Deudor.Any(o => o == lineaSplit[5].ToUpper())) ? "0" : "1");
+                                    Activo = ((!_Deudor.Any(o => o == lineaSplit[6].ToUpper())) ? "0" : "1");
                                 }
 
                                 decimal importeMXNtest = 0;
